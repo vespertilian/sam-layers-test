@@ -21,6 +21,7 @@ const { uniqueNamesGenerator, adjectives, colors, animals } = require('unique-na
 exports.lambdaHandler = async (event, context) => {
     try {
         // const ret = await axios(url);
+        console.log('***** node version', process.version)
         const bcrypted = await bcrypt.hash('foo bar boo', 10)
         const randomName = uniqueNamesGenerator({ dictionaries: [adjectives, colors, animals] }); // big_red_donkey
         // const randomName = 'not working'

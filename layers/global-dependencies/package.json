@@ -7,7 +7,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "postinstall": "npm install bcrypt --save --target=8.1.0 --target_arch=x64 --target_platform=linux --target_libc=glibc"
+    "postinstall": "npm install bcrypt --save --target=12.2.0 --target_arch=x64 --target_platform=linux --target_libc=glibc"
   },
   "keywords": [],
   "author": "",
